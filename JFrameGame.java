@@ -25,7 +25,6 @@ public class JFrameGame extends JFrame{
 	
 	public void init(){
 		this.setSize(WIDTH_APP, HEIGHT_APP);
-		//this.add(jPanelPeople);
 		this.setLocationRelativeTo(null);
 		this.add(BorderLayout.NORTH, jMenuBarFigure);
 		this.add(BorderLayout.CENTER,jPanelGame);
